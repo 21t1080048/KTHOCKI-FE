@@ -11,7 +11,7 @@ html{
 
 .card{
     width: 1000px;
-    height: 750px;
+    height: 800px;
     background-color: #e6e9d8;
     display: flex;
     margin: auto;
@@ -21,7 +21,7 @@ html{
 
 .container{
     width: 900px;
-    height: 600px;
+    height: 650px;
     background-color: #fff;
     display: flex;
     margin: auto;
@@ -30,14 +30,14 @@ html{
 
 .img{
     width: 400px;
-    height: 600px;
+    height: 650px;
     background-image:url(https://bloganchoi.com/wp-content/uploads/2022/03/poster-jujutsu-kaisen-tai-nhat-ban.jpg);
-    background-size: 400px 600px;
+    background-size: 400px 650px;
 }
 
 .form{
     width: 500px;
-    height: 550px;
+    height: 600px;
 }
 
 .form1{
@@ -56,7 +56,7 @@ html{
 }
 
 .tg{
-    font-size: 10px;
+    font-size: 8px;
     color: rgb(102, 100, 100);
 }
 

@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    width: 1000px;
+    height: 750px;
+    background-color: #e6e9d8;
+    display: flex;
+    margin: auto;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+
+.container{
+    width: 900px;
+    height: 600px;
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.img{
+    width: 400px;
+    height: 600px;
+    background-image:url(https://bloganchoi.com/wp-content/uploads/2022/03/poster-jujutsu-kaisen-tai-nhat-ban.jpg);
+    background-size: 400px 600px;
+}
+
+.form{
+    width: 500px;
+    height: 550px;
+}
+
+.form1{
+    display: flex;
+}
+
+.title-form1{
+    padding: 22px 24px 8px 24px;
+}
+
+.title{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+.tg{
+    font-size: 10px;
+    color: rgb(102, 100, 100);
+}
+
+.rating{
+    display: flex;
+    padding: 32px 0px 8px 0px;
+    margin: auto;
+    margin-left: 96px;
+}
+
+.star{
+    margin-right: 3px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.top{
+    font-weight: 600;
+}
+
+.top-small{
+    font-size: 12px;
+}
+
+.mark{
+    font-size: 10px;
+    color: rgb(102, 100, 100);
+    margin-top: 4px;
+}
+
+.form2{
+    margin-top: 25px;
+    display: flex;
+}
+
+.title-form2{
+    margin-left: 24px;
+}
+
+.order-title{
+    font-size: 14px;
+}
+
+.body-form2{
+    margin-left: 140px;
+}
+
+table{
+    font-size: 11px;
+    margin-top: -10px;
+}
+
+tr{
+    margin-bottom: 8px;
+}
+
+th{
+    float: left;
+    margin-right: 54px;
+    margin-top: 8px;
+}
+
+td{
+    padding-top: 8px;
+}
+
+.form2-total{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.form2-cost{
+    font-size: 13px;
+    font-weight: 600;
+    color: #e7317d;
+}
+
+.form3{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-form3{
+    margin-left: 24px;
+}
+
+.checkout-title{
+    font-size: 14px;
+}
+
+.body-form3{
+    width: 340px;
+    margin-right: 16px;
+}
+
+.input-form3{
+    position: relative;
+}
+
+#Name{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #333;
+    width: 337px;
+    padding: 6px 0;
+    font-weight: 600;
+}
+
+.input-card{
+    font-size: 9px;
+    color: #a19f9f;
+}
+
+#Card{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #333;
+    width: 337px;
+    padding: 6px 0;
+    font-weight: 600;
+}
+
+.visa{
+    position: absolute;
+    top: 15px;
+    right: 3px;
+    font-size: 24px;
+}
+
+.date-form3{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Date{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #333;
+    width: 70px;
+    padding: 6px 0;
+    font-weight: 600;
+}
+
+#Year{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #333;
+    width: 70px;
+    padding: 6px 0;
+    font-weight: 600;
+}
+
+.code-input{
+    margin-right: 3px;
+}
+
+#Code{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #333;
+    width: 160px;
+    padding: 5px 0;
+    font-weight: 800;
+}
+
+.pay-form3{
+    display: flex;
+    margin-top: 8px;
+}
+
+.pay-box{
+    margin: 2px 4px 0 0;
+}
+
+.head-quick{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.buttom-form3{
+    margin-top: 8px;
+}
+
+.buttom-pay-form3{
+    width: 337px;
+    padding: 6px 0;
+    background-color: #0d274e;
+    color: #fff;
+    border: none;
+}
+
+.buttom-pay-form3:hover{
+    cursor: pointer;
+    background-color: #1e314e;
+}
+
+.footer-form3{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thongbao{
+    font-size: 12px;
+    margin-top: -5px;
+}

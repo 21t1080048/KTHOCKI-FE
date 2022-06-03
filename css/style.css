@@ -11,17 +11,19 @@ html{
 
 .card{
     width: 1000px;
-    height: 800px;
+    height: 750px;
     background-color: #e6e9d8;
     display: flex;
     margin: auto;
     margin-top: 16px;
     border-radius: 10px;
+    justify-content: center;
+    align-content: center;
 }
 
 .container{
     width: 900px;
-    height: 650px;
+    height: 600px;
     background-color: #fff;
     display: flex;
     margin: auto;
@@ -30,14 +32,14 @@ html{
 
 .img{
     width: 400px;
-    height: 650px;
+    height: 600px;
     background-image:url(https://bloganchoi.com/wp-content/uploads/2022/03/poster-jujutsu-kaisen-tai-nhat-ban.jpg);
-    background-size: 400px 650px;
+    background-size: 400px 600px;
 }
 
 .form{
     width: 500px;
-    height: 600px;
+    height: 550px;
 }
 
 .form1{
@@ -50,17 +52,16 @@ html{
 
 .title{
     font-size: 20px;
-    text-transform: uppercase;
     margin-bottom: 6px;
     line-height: 1.4;
 }
 
 .tg{
-    font-size: 8px;
+    font-size: 10px;
     color: rgb(102, 100, 100);
 }
 
-.rating{
+.danhgia{
     display: flex;
     padding: 32px 0px 8px 0px;
     margin: auto;
@@ -74,7 +75,7 @@ html{
 }
 
 .top{
-    font-weight: 600;
+    font: size 134px;;
 }
 
 .top-small{
@@ -157,14 +158,12 @@ td{
     position: relative;
 }
 
-#Name{
-    border-top: none;
-    border-right: none;
-    border-left: none;
+.name{
+    border: 0;
     border-bottom: 1px solid #333;
     width: 337px;
     padding: 6px 0;
-    font-weight: 600;
+    font-size: 14px;
 }
 
 .input-card{
@@ -172,14 +171,12 @@ td{
     color: #a19f9f;
 }
 
-#Card{
-    border-top: none;
-    border-right: none;
-    border-left: none;
+.so{
+    border: 0;
     border-bottom: 1px solid #333;
     width: 337px;
     padding: 6px 0;
-    font-weight: 600;
+    font-size: 14px;
 }
 
 .visa{
@@ -194,38 +191,32 @@ td{
     justify-content: space-between;
 }
 
-#Date{
-    border-top: none;
-    border-right: none;
-    border-left: none;
+.month{
+    border: 0;
     border-bottom: 1px solid #333;
-    width: 70px;
+    width: 65px;
     padding: 6px 0;
-    font-weight: 600;
+    font-size: 14px;
 }
 
-#Year{
-    border-top: none;
-    border-right: none;
-    border-left: none;
+.year{
+    border: 0;
     border-bottom: 1px solid #333;
-    width: 70px;
+    width: 65px;
     padding: 6px 0;
-    font-weight: 600;
+    font-size: 14px;
 }
 
 .code-input{
     margin-right: 3px;
 }
 
-#Code{
-    border-top: none;
-    border-right: none;
-    border-left: none;
+.code{
+    border: 0;
     border-bottom: 1px solid #333;
     width: 160px;
     padding: 5px 0;
-    font-weight: 800;
+    font-size: 16px;
 }
 
 .pay-form3{
@@ -239,7 +230,6 @@ td{
 
 .head-quick{
     font-size: 14px;
-    font-weight: 600;
     line-height: 1.5;
 }
 
@@ -251,7 +241,7 @@ td{
     width: 337px;
     padding: 6px 0;
     background-color: #0d274e;
-    color: #fff;
+    color: whitesmoke;
     border: none;
 }
 

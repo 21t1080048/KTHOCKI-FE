@@ -11,7 +11,7 @@ html{
 
 .card{
     width: 1000px;
-    height: 750px;
+    height: 780px;
     background-color: #e6e9d8;
     display: flex;
     margin: auto;
@@ -23,7 +23,7 @@ html{
 
 .container{
     width: 900px;
-    height: 600px;
+    height: 630px;
     background-color: #fff;
     display: flex;
     margin: auto;
@@ -32,25 +32,25 @@ html{
 
 .img{
     width: 400px;
-    height: 600px;
+    height: 630px;
     background-image:url(https://bloganchoi.com/wp-content/uploads/2022/03/poster-jujutsu-kaisen-tai-nhat-ban.jpg);
-    background-size: 400px 600px;
+    background-size: 400px 630px;
 }
 
-.form{
+.khung{
     width: 500px;
-    height: 550px;
+    height: 580px;
 }
 
-.form1{
+.khung1{
     display: flex;
 }
 
-.title-form1{
+.ten-phim{
     padding: 22px 24px 8px 24px;
 }
 
-.title{
+.ten{
     font-size: 20px;
     margin-bottom: 6px;
     line-height: 1.4;
@@ -74,34 +74,34 @@ html{
     margin-top: 5px;
 }
 
-.top{
-    font: size 134px;;
+.to{
+    font-size: 16px;;
 }
 
-.top-small{
+.nho{
     font-size: 12px;
 }
 
-.mark{
+.view{
     font-size: 10px;
     color: rgb(102, 100, 100);
     margin-top: 4px;
 }
 
-.form2{
+.khung2{
     margin-top: 25px;
     display: flex;
 }
 
-.title-form2{
+.ten-khung2{
     margin-left: 24px;
 }
 
-.order-title{
+.ten2{
     font-size: 14px;
 }
 
-.body-form2{
+.bang{
     margin-left: 140px;
 }
 
@@ -124,37 +124,37 @@ td{
     padding-top: 8px;
 }
 
-.form2-total{
+.hong{
     font-size: 13px;
     font-weight: 600;
 }
 
-.form2-cost{
+.anhhong{
     font-size: 13px;
     font-weight: 600;
     color: #e7317d;
 }
 
-.form3{
-    margin-top: 45px;
+.khung3{
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }
 
-.title-form3{
+.ten-khung3{
     margin-left: 24px;
 }
 
-.checkout-title{
+.ten3{
     font-size: 14px;
 }
 
-.body-form3{
+.viet{
     width: 340px;
     margin-right: 16px;
 }
 
-.input-form3{
+.dangky{
     position: relative;
 }
 
@@ -186,7 +186,7 @@ td{
     font-size: 24px;
 }
 
-.date-form3{
+.thoigian{
     display: flex;
     justify-content: space-between;
 }
@@ -219,25 +219,25 @@ td{
     font-size: 16px;
 }
 
-.pay-form3{
+.muc3{
     display: flex;
     margin-top: 8px;
 }
 
-.pay-box{
+.hop3{
     margin: 2px 4px 0 0;
 }
 
-.head-quick{
+.quick{
     font-size: 14px;
     line-height: 1.5;
 }
 
-.buttom-form3{
+.nut3{
     margin-top: 8px;
 }
 
-.buttom-pay-form3{
+.nut-khung3{
     width: 337px;
     padding: 6px 0;
     background-color: #0d274e;
@@ -245,13 +245,13 @@ td{
     border: none;
 }
 
-.buttom-pay-form3:hover{
+.nut-khung3:hover{
     cursor: pointer;
     background-color: #1e314e;
 }
 
-.footer-form3{
-    margin-top: 8px;
+.luu-y{
+    margin-top: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,5 +259,5 @@ td{
 
 .thongbao{
     font-size: 12px;
-    margin-top: -5px;
+    margin-top: -6px;
 }
